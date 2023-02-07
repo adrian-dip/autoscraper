@@ -49,7 +49,7 @@ matrix = [[text_scores, --> n-gram classifier
         shape_scores, --> lower/upper case classifier
         word_counts, --> word count
         character_counts, --> character count
-        alphas, --> number of alphanumeric words (/b)
+        alphas, --> number of alphanumeric words ((?:\b\d+))
         stopws, --> number of stopwords
         n_digits--> number of digits ([0-9])
         ]
